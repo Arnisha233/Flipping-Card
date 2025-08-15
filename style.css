@@ -96,8 +96,7 @@ h5.name {
   margin-top: 20px;
 }
 .card.back-face {
-  border: none;
-  padding: 15px 25px 25px 25px;
+  padding: 15px 25px 220px 25px;
   transform: rotateY(180deg);
 }
 .card.back-face h6 {
@@ -139,11 +138,13 @@ h5.name {
   font-size: 8px;
   margin-top: 15px;
 }
-.card.back-face {
-}
+
 .magnetic-strip .signature {
   margin: 0 auto;
 }
 .magnetic-strip h5 {
   text-align: center;
+  text-align: justify;
+  width: 70%;
+  margin: 0 auto;
 }
